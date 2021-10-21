@@ -17,7 +17,7 @@ html, body {
 
 .services-hero-box{
    position: relative;
-    height: 550px;
+    /* height: 550px; */
 }
 
 .services-hero-text{
@@ -353,13 +353,14 @@ html, body {
 /* Large Mobile View */
 @media only screen and (max-width: 425px) {
 
+    .service-mob {
+        font-size: 34px !important;
+        line-height: 35px !important;
+    }
+
     /* Services Hero Styles */
     .services-hero-text{
         width: 100%;
-    }
-
-    .services-hero-box{
-        height: 600px;
     }
 
     /* Service Types Styles */
@@ -377,7 +378,7 @@ html, body {
     }
 
     .services-process-diagnose{
-        padding-top: 3300px;
+        padding-top: 2893px;
     }
 
     .services-diagnose-text {
@@ -405,7 +406,7 @@ html, body {
     }
 
     .services-process-diagnose{
-        padding-top: 3700px;
+        padding-top: 2687px;
     }
 
     .services-diagnose-text {
@@ -415,6 +416,11 @@ html, body {
     .services-diagnose-text p {
        margin-left: 60px;
     }
+    .services-diagnose-text p {
+        /* display: none; */
+        padding-right: 0 !important;
+        margin: 0 !important;
+      }
 
     .services-diagnose-text button {
         margin-right: 5px;
@@ -439,17 +445,22 @@ html, body {
     }
 
     /* Services Processes styles */
+    .services-process-text {
+        width: 100% !important;
+    }
 
     .services-process-text p{
-       margin-bottom: 50px;
-       padding-bottom: 150px;
+       margin-bottom: 20px;
+       padding-bottom: 20px;
     }
 
     .services-process-diagnose{
-        padding-top: 3050px;
+        padding-top: 2550px;
     }
 
     .services-diagnose-text p {
-       display: none;
+       /* display: none; */
+       padding-right: 0 !important;
+       margin: 0 !important;
      }
 }

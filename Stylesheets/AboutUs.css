@@ -29,7 +29,7 @@
 .about-section-4{
     background-color: #F8F8F8;
 }
-#about-body header nav a, p {
+#about-body header nav a, #about-body header nav p {
     font-size: 16px !important;
 }
 #about-body header nav p {
@@ -48,7 +48,7 @@
     font-weight: 800;
 }
 #about-body{
-    font-size: 1.125rem;
+    
     font-family: 'Manrope', sans-serif;
 }
 #about-body h3{
@@ -69,6 +69,7 @@
 }
 .about-btn-1{
     background: #FF6433!important;
+    font-size: 13px;
 
 }
 .about-number{
@@ -190,11 +191,23 @@
     #about-body h2{
         font-size: 32px;
     }
-    .about-team-1, .about-team-2,.about-team-3,.about-team-4,.about-team-5,.about-team-6{
-        background-position: 45%,10%;
-    }
     .ab-add-p{
         padding-left: 10px;
+    }
+    #about-body h1{
+        font-size: 32px;
+    }
+    #about-body p{
+        font-size: 13px;
+    }
+    #about-body h3{
+        font-size: calc(1.3rem + .6vw);
+    }
+    #about-body .title-02{
+        font-size: 16px;
+    }
+    .about-section-1 p{
+        text-align: start!important;
     }
 }
 @media(max-width: 1024px){
@@ -212,6 +225,9 @@
     }
     .about-bg-3{
         height: 60vh;
+    }
+    .about-team-1, .about-team-2,.about-team-3,.about-team-4,.about-team-5,.about-team-6{
+        background-position: 45%,10%;
     }
 }
 @media(width:2560px){
